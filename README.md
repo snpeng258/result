@@ -26,7 +26,7 @@ From `scatterometry/results/hhg逆问题求解抗噪分析/` (hhg3, same structu
 ## Download
 
 ```bash
-git clone https://github.com/snpeng258/hhg-noise-eval-plots.git
+git clone https://github.com/snpeng258/result.git
 ```
 
 Or download individual PNGs from the repo page.
