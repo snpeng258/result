@@ -1,0 +1,3420 @@
+{
+  "config": "/home/psn/S4-fim/inverse/config_fim_pitch300_cd150.yaml",
+  "structure": {
+    "pitch_nm": 300,
+    "cd_nm": 150.0,
+    "depth_nm": 39.32,
+    "lswa_deg": 89.63,
+    "rswa_deg": 89.26
+  },
+  "optical": {
+    "polarization": "TE",
+    "NG": 31,
+    "n_conditions": 20,
+    "n_orders_stored": 31
+  },
+  "eps_frac": 0.01,
+  "fd_steps": {
+    "cd_nm": 1.5,
+    "depth_nm": 0.3932,
+    "lswa_deg": 0.8963,
+    "rswa_deg": 0.8926000000000001
+  },
+  "noise": {
+    "n0_electrons_default": 1000000.0,
+    "zero": {
+      "camera": "DoBEAM2000-2",
+      "relative_a": 0.01,
+      "readout_e_rms": 5.0
+    },
+    "first": {
+      "camera": "XV4040BSI-HG",
+      "relative_a": 0.01,
+      "readout_e_rms": 2.5
+    },
+    "sigma_is_observation_variance": true,
+    "role_weights_in_FIM": false
+  },
+  "layout": {
+    "n_conditions": 20,
+    "n_orders_stored": 31,
+    "n_stored_rows": 620,
+    "n_propagating": 336,
+    "keep_orders": [
+      -1,
+      0,
+      1
+    ],
+    "n_measurable": 60,
+    "n_s4_forwards_for_J": 100,
+    "param_names": [
+      "cd_nm",
+      "depth_nm",
+      "lswa_deg",
+      "rswa_deg"
+    ],
+    "param_true": {
+      "cd_nm": 150.0,
+      "depth_nm": 39.32,
+      "lswa_deg": 89.63,
+      "rswa_deg": 89.26
+    },
+    "groups": [
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 0.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 30.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 45.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 60.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -1,
+        "role": "swa",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 0,
+        "role": "depth_anchor",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 1,
+        "role": "swa",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      }
+    ],
+    "mask_counts": {
+      "prop": 60,
+      "decoupling": 28,
+      "m0_all": 20,
+      "only90": 12,
+      "no90": 48,
+      "near90": 24,
+      "far": 24,
+      "mid": 24,
+      "two_cam": 48,
+      "drop_phi45": 48
+    },
+    "equivalent_masks": [
+      [
+        "two_cam",
+        "drop_phi45"
+      ]
+    ],
+    "note": "FIM uses raw 1/\u03c3_j^2 from observation_variance. Decoupling role weights and WLS sum(w)=1 are not in \u03a3^{-1}."
+  },
+  "masks": {
+    "prop": {
+      "n_rows": 60,
+      "n_m0": 20,
+      "n_pm1_or_higher": 40,
+      "roles": {
+        "aux": 32,
+        "lateral": 16,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        0.0,
+        30.0,
+        45.0,
+        60.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.000122176013850667,
+        "depth_nm": 1.2380432921942708e-05,
+        "lswa_deg": 0.0007688601492465382,
+        "rswa_deg": 0.0008162888354430623
+      },
+      "rho_depth_cd": 0.08630881458723426,
+      "cond_scaled": 6900.9313295502925,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.08630881458723426,
+          0.3904720323493768,
+          0.07620859667800955
+        ],
+        [
+          0.08630881458723423,
+          1.0,
+          0.22910962949401847,
+          -0.06719887891849505
+        ],
+        [
+          0.3904720323493768,
+          0.22910962949401847,
+          1.0,
+          0.5103519168288146
+        ],
+        [
+          0.07620859667800955,
+          -0.06719887891849505,
+          0.5103519168288146,
+          1.0
+        ]
+      ]
+    },
+    "decoupling": {
+      "n_rows": 28,
+      "n_m0": 20,
+      "n_pm1_or_higher": 8,
+      "roles": {
+        "lateral": 16,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        0.0,
+        30.0,
+        45.0,
+        60.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.0002083610281809058,
+        "depth_nm": 1.3356041060942033e-05,
+        "lswa_deg": 0.0016177187438320782,
+        "rswa_deg": 0.001629264148315036
+      },
+      "rho_depth_cd": -0.06407670974221,
+      "cond_scaled": 25132.58874516631,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.06407670974221,
+          0.4637763317382527,
+          0.4576408779981448
+        ],
+        [
+          -0.06407670974221001,
+          1.0,
+          -0.16224770873037075,
+          -0.16076351330320912
+        ],
+        [
+          0.46377633173825267,
+          -0.16224770873037073,
+          1.0,
+          0.6408947861635542
+        ],
+        [
+          0.4576408779981448,
+          -0.16076351330320912,
+          0.6408947861635543,
+          1.0
+        ]
+      ]
+    },
+    "m0_all": {
+      "n_rows": 20,
+      "n_m0": 20,
+      "n_pm1_or_higher": 0,
+      "roles": {
+        "lateral": 16,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        0.0,
+        30.0,
+        45.0,
+        60.0,
+        90.0
+      ],
+      "orders_m": [
+        0
+      ],
+      "crlb": {
+        "cd_nm": 0.00021280819814038462,
+        "depth_nm": 0.00012503711488178398,
+        "lswa_deg": 0.26852664103078444,
+        "rswa_deg": 0.2668418647582958
+      },
+      "rho_depth_cd": 0.1502026976937809,
+      "cond_scaled": 11666303.187993376,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.1502026976937809,
+          -0.0016641784719305663,
+          0.006915294924627367
+        ],
+        [
+          0.1502026976937809,
+          1.0,
+          -0.12396363196217013,
+          0.12101613480267832
+        ],
+        [
+          -0.0016641784719305663,
+          -0.12396363196217013,
+          1.0,
+          -0.9999328282436556
+        ],
+        [
+          0.006915294924627367,
+          0.12101613480267832,
+          -0.9999328282436556,
+          1.0
+        ]
+      ]
+    },
+    "only90": {
+      "n_rows": 12,
+      "n_m0": 4,
+      "n_pm1_or_higher": 8,
+      "roles": {
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.0008567177369067737,
+        "depth_nm": 1.3451866398818098e-05,
+        "lswa_deg": 0.0020732015571267187,
+        "rswa_deg": 0.0020715660941553722
+      },
+      "rho_depth_cd": -0.03400982129510517,
+      "cond_scaled": 45208.1001879336,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.03400982129510517,
+          0.4503028949833424,
+          0.42506442035448627
+        ],
+        [
+          -0.03400982129510517,
+          1.0,
+          -0.1897406896395318,
+          -0.1900480391390478
+        ],
+        [
+          0.4503028949833424,
+          -0.1897406896395318,
+          1.0,
+          0.7792350362546216
+        ],
+        [
+          0.42506442035448627,
+          -0.1900480391390478,
+          0.7792350362546216,
+          1.0
+        ]
+      ]
+    },
+    "no90": {
+      "n_rows": 48,
+      "n_m0": 16,
+      "n_pm1_or_higher": 32,
+      "roles": {
+        "aux": 32,
+        "lateral": 16
+      },
+      "azimuths_deg": [
+        0.0,
+        30.0,
+        45.0,
+        60.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.00014479330407780929,
+        "depth_nm": 5.406519578953043e-05,
+        "lswa_deg": 0.0014720325077484761,
+        "rswa_deg": 0.0009335296179886849
+      },
+      "rho_depth_cd": 0.5034588549347134,
+      "cond_scaled": 3216.428533467571,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.5034588549347134,
+          0.6108874787496847,
+          -0.05963537704335553
+        ],
+        [
+          0.5034588549347134,
+          1.0,
+          0.8316386993139642,
+          -0.1609430798299072
+        ],
+        [
+          0.6108874787496849,
+          0.8316386993139643,
+          1.0,
+          0.12492862941515219
+        ],
+        [
+          -0.05963537704335553,
+          -0.16094307982990722,
+          0.12492862941515218,
+          1.0
+        ]
+      ]
+    },
+    "near90": {
+      "n_rows": 24,
+      "n_m0": 8,
+      "n_pm1_or_higher": 16,
+      "roles": {
+        "aux": 8,
+        "lateral": 4,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        60.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.0003085355261525764,
+        "depth_nm": 1.2483363331080248e-05,
+        "lswa_deg": 0.0008550056347738906,
+        "rswa_deg": 0.0014454499604512638
+      },
+      "rho_depth_cd": 0.019214091373454933,
+      "cond_scaled": 16660.159699554857,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.019214091373454933,
+          0.4539279177468948,
+          0.49933983164268586
+        ],
+        [
+          0.01921409137345494,
+          1.0,
+          0.19686516382317693,
+          -0.050608459916549775
+        ],
+        [
+          0.4539279177468947,
+          0.19686516382317695,
+          1.0,
+          0.5519282579476037
+        ],
+        [
+          0.4993398316426858,
+          -0.050608459916549775,
+          0.5519282579476037,
+          1.0
+        ]
+      ]
+    },
+    "far": {
+      "n_rows": 24,
+      "n_m0": 8,
+      "n_pm1_or_higher": 16,
+      "roles": {
+        "aux": 16,
+        "lateral": 8
+      },
+      "azimuths_deg": [
+        0.0,
+        30.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.0002489163110736606,
+        "depth_nm": 0.00019780229566689707,
+        "lswa_deg": 0.003767960992006242,
+        "rswa_deg": 0.0019840738325932854
+      },
+      "rho_depth_cd": 0.2265723780389112,
+      "cond_scaled": 1505.6091496933534,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.2265723780389112,
+          0.7568914855724869,
+          0.2386626582535991
+        ],
+        [
+          0.22657237803891117,
+          1.0,
+          0.47007402081164135,
+          -0.11570341881384444
+        ],
+        [
+          0.7568914855724868,
+          0.47007402081164135,
+          1.0,
+          0.5720744112044698
+        ],
+        [
+          0.23866265825359914,
+          -0.11570341881384444,
+          0.5720744112044698,
+          1.0
+        ]
+      ]
+    },
+    "mid": {
+      "n_rows": 24,
+      "n_m0": 8,
+      "n_pm1_or_higher": 16,
+      "roles": {
+        "aux": 16,
+        "lateral": 8
+      },
+      "azimuths_deg": [
+        30.0,
+        45.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.0003803682421554252,
+        "depth_nm": 0.00015015950588006998,
+        "lswa_deg": 0.007364709023672292,
+        "rswa_deg": 0.002527296489299362
+      },
+      "rho_depth_cd": 0.6327001851151725,
+      "cond_scaled": 16958.33048745249,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.6327001851151725,
+          0.8158505928764365,
+          0.6053063472285205
+        ],
+        [
+          0.6327001851151725,
+          1.0,
+          0.7754014844609506,
+          0.31399579052273036
+        ],
+        [
+          0.8158505928764365,
+          0.7754014844609506,
+          1.0,
+          0.7920093768033157
+        ],
+        [
+          0.6053063472285205,
+          0.31399579052273024,
+          0.7920093768033156,
+          1.0
+        ]
+      ]
+    },
+    "two_cam": {
+      "n_rows": 48,
+      "n_m0": 16,
+      "n_pm1_or_higher": 32,
+      "roles": {
+        "aux": 24,
+        "lateral": 12,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        0.0,
+        30.0,
+        60.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.00012882935155209552,
+        "depth_nm": 1.244426465914655e-05,
+        "lswa_deg": 0.0007760194196626098,
+        "rswa_deg": 0.0009433813117259851
+      },
+      "rho_depth_cd": 0.07683444895262656,
+      "cond_scaled": 7848.971539083748,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.07683444895262656,
+          0.37114227257611665,
+          -0.03879937633399298
+        ],
+        [
+          0.07683444895262655,
+          1.0,
+          0.22397600705485785,
+          -0.034826502523745244
+        ],
+        [
+          0.37114227257611665,
+          0.22397600705485785,
+          1.0,
+          0.471816934153726
+        ],
+        [
+          -0.03879937633399298,
+          -0.03482650252374526,
+          0.4718169341537259,
+          1.0
+        ]
+      ]
+    },
+    "drop_phi45": {
+      "n_rows": 48,
+      "n_m0": 16,
+      "n_pm1_or_higher": 32,
+      "roles": {
+        "aux": 24,
+        "lateral": 12,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        0.0,
+        30.0,
+        60.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.00012882935155209552,
+        "depth_nm": 1.244426465914655e-05,
+        "lswa_deg": 0.0007760194196626098,
+        "rswa_deg": 0.0009433813117259851
+      },
+      "rho_depth_cd": 0.07683444895262656,
+      "cond_scaled": 7848.971539083748,
+      "rank": 4,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          0.07683444895262656,
+          0.37114227257611665,
+          -0.03879937633399298
+        ],
+        [
+          0.07683444895262655,
+          1.0,
+          0.22397600705485785,
+          -0.034826502523745244
+        ],
+        [
+          0.37114227257611665,
+          0.22397600705485785,
+          1.0,
+          0.471816934153726
+        ],
+        [
+          -0.03879937633399298,
+          -0.03482650252374526,
+          0.4718169341537259,
+          1.0
+        ]
+      ]
+    }
+  },
+  "n0_sweep": {
+    "n0_electrons": [
+      100000.0,
+      300000.0,
+      1000000.0,
+      3000000.0,
+      10000000.0
+    ],
+    "flicker": "yaml",
+    "crlb": {
+      "prop": {
+        "cd_nm": [
+          0.0005330242960620954,
+          0.00020079768506961018,
+          0.000122176013850667,
+          0.00010276014437838927,
+          9.621674268258901e-05
+        ],
+        "depth_nm": [
+          6.187576869176839e-05,
+          2.185267309796195e-05,
+          1.2380432921942708e-05,
+          1.0105415120614802e-05,
+          9.354401437818194e-06
+        ],
+        "lswa_deg": [
+          0.00320427580237168,
+          0.001265389303607749,
+          0.0007688601492465382,
+          0.0006422306625071874,
+          0.0005994834074948514
+        ],
+        "rswa_deg": [
+          0.002909004653312978,
+          0.0012834064470615208,
+          0.0008162888354430623,
+          0.0006893825397855884,
+          0.0006456237516377043
+        ]
+      },
+      "decoupling": {
+        "cd_nm": [
+          0.000741537617217248,
+          0.00030224255906241484,
+          0.0002083610281809058,
+          0.000187875034409605,
+          0.00018139029649644157
+        ],
+        "depth_nm": [
+          6.658355257570478e-05,
+          2.3470957516699962e-05,
+          1.3356041060942033e-05,
+          1.0952003135257365e-05,
+          1.0163187861283794e-05
+        ],
+        "lswa_deg": [
+          0.005108975174139587,
+          0.0022574514396865824,
+          0.0016177187438320782,
+          0.0014693020150997695,
+          0.001420715836342778
+        ],
+        "rswa_deg": [
+          0.005119052174904852,
+          0.0022689957857698964,
+          0.001629264148315036,
+          0.001480611985784463,
+          0.0014318938656457856
+        ]
+      },
+      "only90": {
+        "cd_nm": [
+          0.002261233164405276,
+          0.0011558869501088068,
+          0.0008567177369067737,
+          0.0007634275818975474,
+          0.0007280745379988357
+        ],
+        "depth_nm": [
+          6.769060155669653e-05,
+          2.3615648348454656e-05,
+          1.3451866398818098e-05,
+          1.1079436624325698e-05,
+          1.0308561182466677e-05
+        ],
+        "lswa_deg": [
+          0.005681471197595107,
+          0.0027448149904774157,
+          0.0020732015571267187,
+          0.0019045026676815747,
+          0.0018464644477873635
+        ],
+        "rswa_deg": [
+          0.005666166145606906,
+          0.0027397438795494986,
+          0.0020715660941553722,
+          0.001904224627355262,
+          0.0018467302484792643
+        ]
+      }
+    }
+  },
+  "flicker_compare": {
+    "yaml_a": {
+      "prop": {
+        "n_rows": 60,
+        "n_m0": 20,
+        "n_pm1_or_higher": 40,
+        "roles": {
+          "aux": 32,
+          "lateral": 16,
+          "swa": 8,
+          "depth_anchor": 4
+        },
+        "azimuths_deg": [
+          0.0,
+          30.0,
+          45.0,
+          60.0,
+          90.0
+        ],
+        "orders_m": [
+          -1,
+          0,
+          1
+        ],
+        "crlb": {
+          "cd_nm": 0.000122176013850667,
+          "depth_nm": 1.2380432921942708e-05,
+          "lswa_deg": 0.0007688601492465382,
+          "rswa_deg": 0.0008162888354430623
+        },
+        "corr": [
+          [
+            1.0,
+            0.08630881458723426,
+            0.3904720323493768,
+            0.07620859667800955
+          ],
+          [
+            0.08630881458723423,
+            1.0,
+            0.22910962949401847,
+            -0.06719887891849505
+          ],
+          [
+            0.3904720323493768,
+            0.22910962949401847,
+            1.0,
+            0.5103519168288146
+          ],
+          [
+            0.07620859667800955,
+            -0.06719887891849505,
+            0.5103519168288146,
+            1.0
+          ]
+        ],
+        "rho_depth_cd": 0.08630881458723426,
+        "cond_scaled": 6900.9313295502925,
+        "rank": 4,
+        "singular_params": []
+      },
+      "decoupling": {
+        "n_rows": 28,
+        "n_m0": 20,
+        "n_pm1_or_higher": 8,
+        "roles": {
+          "lateral": 16,
+          "swa": 8,
+          "depth_anchor": 4
+        },
+        "azimuths_deg": [
+          0.0,
+          30.0,
+          45.0,
+          60.0,
+          90.0
+        ],
+        "orders_m": [
+          -1,
+          0,
+          1
+        ],
+        "crlb": {
+          "cd_nm": 0.0002083610281809058,
+          "depth_nm": 1.3356041060942033e-05,
+          "lswa_deg": 0.0016177187438320782,
+          "rswa_deg": 0.001629264148315036
+        },
+        "corr": [
+          [
+            1.0,
+            -0.06407670974221,
+            0.4637763317382527,
+            0.4576408779981448
+          ],
+          [
+            -0.06407670974221001,
+            1.0,
+            -0.16224770873037075,
+            -0.16076351330320912
+          ],
+          [
+            0.46377633173825267,
+            -0.16224770873037073,
+            1.0,
+            0.6408947861635542
+          ],
+          [
+            0.4576408779981448,
+            -0.16076351330320912,
+            0.6408947861635543,
+            1.0
+          ]
+        ],
+        "rho_depth_cd": -0.06407670974221,
+        "cond_scaled": 25132.58874516631,
+        "rank": 4,
+        "singular_params": []
+      },
+      "only90": {
+        "n_rows": 12,
+        "n_m0": 4,
+        "n_pm1_or_higher": 8,
+        "roles": {
+          "swa": 8,
+          "depth_anchor": 4
+        },
+        "azimuths_deg": [
+          90.0
+        ],
+        "orders_m": [
+          -1,
+          0,
+          1
+        ],
+        "crlb": {
+          "cd_nm": 0.0008567177369067737,
+          "depth_nm": 1.3451866398818098e-05,
+          "lswa_deg": 0.0020732015571267187,
+          "rswa_deg": 0.0020715660941553722
+        },
+        "corr": [
+          [
+            1.0,
+            -0.03400982129510517,
+            0.4503028949833424,
+            0.42506442035448627
+          ],
+          [
+            -0.03400982129510517,
+            1.0,
+            -0.1897406896395318,
+            -0.1900480391390478
+          ],
+          [
+            0.4503028949833424,
+            -0.1897406896395318,
+            1.0,
+            0.7792350362546216
+          ],
+          [
+            0.42506442035448627,
+            -0.1900480391390478,
+            0.7792350362546216,
+            1.0
+          ]
+        ],
+        "rho_depth_cd": -0.03400982129510517,
+        "cond_scaled": 45208.1001879336,
+        "rank": 4,
+        "singular_params": []
+      }
+    },
+    "a=0": {
+      "prop": {
+        "n_rows": 60,
+        "n_m0": 20,
+        "n_pm1_or_higher": 40,
+        "roles": {
+          "aux": 32,
+          "lateral": 16,
+          "swa": 8,
+          "depth_anchor": 4
+        },
+        "azimuths_deg": [
+          0.0,
+          30.0,
+          45.0,
+          60.0,
+          90.0
+        ],
+        "orders_m": [
+          -1,
+          0,
+          1
+        ],
+        "crlb": {
+          "cd_nm": 2.1804251104218636e-05,
+          "depth_nm": 3.0609437222380592e-06,
+          "lswa_deg": 0.00014245552888641943,
+          "rswa_deg": 0.0001290644693446832
+        },
+        "corr": [
+          [
+            1.0,
+            0.14287585940929617,
+            0.4296266504450944,
+            0.23550250243959733
+          ],
+          [
+            0.14287585940929617,
+            1.0,
+            0.22602772666982113,
+            -0.14291043948281276
+          ],
+          [
+            0.4296266504450945,
+            0.22602772666982116,
+            1.0,
+            0.16880332230941925
+          ],
+          [
+            0.23550250243959733,
+            -0.14291043948281276,
+            0.16880332230941925,
+            1.0
+          ]
+        ],
+        "rho_depth_cd": 0.14287585940929617,
+        "cond_scaled": 2607.664346860215,
+        "rank": 4,
+        "singular_params": []
+      },
+      "decoupling": {
+        "n_rows": 28,
+        "n_m0": 20,
+        "n_pm1_or_higher": 8,
+        "roles": {
+          "lateral": 16,
+          "swa": 8,
+          "depth_anchor": 4
+        },
+        "azimuths_deg": [
+          0.0,
+          30.0,
+          45.0,
+          60.0,
+          90.0
+        ],
+        "orders_m": [
+          -1,
+          0,
+          1
+        ],
+        "crlb": {
+          "cd_nm": 2.6453137608489042e-05,
+          "depth_nm": 3.2909686626860293e-06,
+          "lswa_deg": 0.00022075556323224713,
+          "rswa_deg": 0.00022060595033285908
+        },
+        "corr": [
+          [
+            1.0,
+            0.06692446788680562,
+            0.31477262028029945,
+            0.31120142895206654
+          ],
+          [
+            0.06692446788680562,
+            1.0,
+            -0.05130430916392458,
+            -0.04848350692936928
+          ],
+          [
+            0.31477262028029945,
+            -0.05130430916392457,
+            1.0,
+            -0.28454155586393326
+          ],
+          [
+            0.31120142895206654,
+            -0.04848350692936928,
+            -0.28454155586393326,
+            1.0
+          ]
+        ],
+        "rho_depth_cd": 0.06692446788680562,
+        "cond_scaled": 5919.088079270074,
+        "rank": 4,
+        "singular_params": []
+      },
+      "only90": {
+        "n_rows": 12,
+        "n_m0": 4,
+        "n_pm1_or_higher": 8,
+        "roles": {
+          "swa": 8,
+          "depth_anchor": 4
+        },
+        "azimuths_deg": [
+          90.0
+        ],
+        "orders_m": [
+          -1,
+          0,
+          1
+        ],
+        "crlb": {
+          "cd_nm": 8.162379325032625e-05,
+          "depth_nm": 3.408044268031003e-06,
+          "lswa_deg": 0.0002366705780660097,
+          "rswa_deg": 0.00023583693037103814
+        },
+        "corr": [
+          [
+            1.0,
+            0.2539357631307694,
+            0.3137832146612151,
+            0.2926353752182831
+          ],
+          [
+            0.2539357631307694,
+            1.0,
+            0.00030783950084729226,
+            -0.0025119926237322687
+          ],
+          [
+            0.3137832146612151,
+            0.0003078395008472914,
+            1.0,
+            -0.12107449529869264
+          ],
+          [
+            0.2926353752182831,
+            -0.0025119926237322683,
+            -0.12107449529869263,
+            1.0
+          ]
+        ],
+        "rho_depth_cd": 0.2539357631307694,
+        "cond_scaled": 5870.628284152228,
+        "rank": 4,
+        "singular_params": []
+      }
+    }
+  }
+}
