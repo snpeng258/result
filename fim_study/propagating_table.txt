@@ -1,48 +1,15 @@
      phi    m  prop  n_prop/n_wl role          
 ----------------------------------------------------
-       0  -11  part    3/4      aux           
-       0  -10   yes    4/4      aux           
-       0   -9   yes    4/4      aux           
-       0   -8   yes    4/4      aux           
-       0   -7   yes    4/4      aux           
-       0   -6   yes    4/4      aux           
-       0   -5   yes    4/4      aux           
-       0   -4   yes    4/4      aux           
-       0   -3   yes    4/4      aux           
-       0   -2   yes    4/4      aux           
        0   -1   yes    4/4      aux           
        0    0   yes    4/4      lateral       
-      30  -10  part    2/4      aux           
-      30   -9   yes    4/4      aux           
-      30   -8   yes    4/4      aux           
-      30   -7   yes    4/4      aux           
-      30   -6   yes    4/4      aux           
-      30   -5   yes    4/4      aux           
-      30   -4   yes    4/4      aux           
-      30   -3   yes    4/4      aux           
-      30   -2   yes    4/4      aux           
       30   -1   yes    4/4      aux           
       30    0   yes    4/4      lateral       
-      45   -8  part    3/4      aux           
-      45   -7   yes    4/4      aux           
-      45   -6   yes    4/4      aux           
-      45   -5   yes    4/4      aux           
-      45   -4   yes    4/4      aux           
-      45   -3   yes    4/4      aux           
-      45   -2   yes    4/4      aux           
       45   -1   yes    4/4      aux           
       45    0   yes    4/4      lateral       
-      60   -6  part    2/4      aux           
-      60   -5   yes    4/4      aux           
-      60   -4   yes    4/4      aux           
-      60   -3   yes    4/4      aux           
-      60   -2   yes    4/4      aux           
       60   -1   yes    4/4      aux           
       60    0   yes    4/4      lateral       
-      90   -2  part    2/4      aux           
       90   -1   yes    4/4      swa           
       90    0   yes    4/4      depth_anchor  
       90    1   yes    4/4      swa           
-      90    2  part    2/4      aux           
 ----------------------------------------------------
-propagating rows: 166 / 620 stored
+measurable (prop ∩ m∈[-1, 0, 1]): 44 / 620 stored; higher-order propagating rows hidden: 122
