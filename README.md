@@ -53,6 +53,30 @@ CRLB at default \(N_0=10^6\), YAML \(a=1\%\) (units: nm / °):
 | [fim_study/fim_corr.png](fim_study/fim_corr.png) | \(F^{-1}\) correlation |
 | [fim_study/fim_study.json](fim_study/fim_study.json) | Full numeric dump |
 
+## FIM at pitch = 300 nm
+
+Same recipe / masks / \(m\in\{-1,0,1\}\), only `pitch_nm: 300` (CD/depth/SWA unchanged).
+At 300 nm, \(m=\pm1\) propagate at all five \(\varphi\) (60 measurable rows vs 44 at 80 nm).
+
+CRLB at \(N_0=10^6\), \(a=1\%\):
+
+| mask | n | cd | depth | LSWA | RSWA | ρ(depth,CD) |
+|---|---:|---:|---:|---:|---:|---:|
+| prop | 60 | 9.6e-6 | 1.6e-6 | 4.6e-5 | 5.6e-5 | −0.63 |
+| decoupling | 28 | 1.9e-5 | 5.6e-6 | 2.6e-4 | 2.6e-4 | −0.84 |
+| only90 | 12 | 2.7e-5 | 7.3e-6 | 2.9e-4 | 2.9e-4 | −0.87 |
+| two_cam | 48 | 1.0e-5 | 1.8e-6 | 4.8e-5 | 7.4e-5 | −0.65 |
+
+| File | Content |
+|---|---|
+| [fim_study_pitch300/fim_R_lambda_phi.png](fim_study_pitch300/fim_R_lambda_phi.png) | \(R_m(\lambda,\varphi)\) |
+| [fim_study_pitch300/fim_J_m0.png](fim_study_pitch300/fim_J_m0.png) | \(J\) at \(m=0\) |
+| [fim_study_pitch300/fim_J_m-1.png](fim_study_pitch300/fim_J_m-1.png) | \(J\) at \(m=-1\) |
+| [fim_study_pitch300/fim_J_m+1.png](fim_study_pitch300/fim_J_m%2B1.png) | \(J\) at \(m=+1\) |
+| [fim_study_pitch300/fim_crlb_by_mask.png](fim_study_pitch300/fim_crlb_by_mask.png) | CRLB by mask |
+| [fim_study_pitch300/fim_crlb_vs_n0.png](fim_study_pitch300/fim_crlb_vs_n0.png) | CRLB vs \(N_0\) |
+| [fim_study_pitch300/fim_study.json](fim_study_pitch300/fim_study.json) | Numeric dump |
+
 ## Download
 
 ```bash
