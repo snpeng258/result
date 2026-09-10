@@ -101,6 +101,42 @@ CRLB at \(N_0=10^6\), \(a=1\%\):
 | [fim_study_pitch300_cd150/fim_crlb_vs_n0.png](fim_study_pitch300_cd150/fim_crlb_vs_n0.png) | CRLB vs \(N_0\) |
 | [fim_study_pitch300_cd150/fim_study.json](fim_study_pitch300_cd150/fim_study.json) | Numeric dump |
 
+## Dense \((\lambda,\varphi)\) FIM (duty 0.5, depth 40 nm)
+
+From `617d7b2`: \(\lambda=10\)–\(30\,\mathrm{nm}\) (1 nm), \(\varphi=0\)–\(90^\circ\) (5°), 399 conditions, 1995 S4 calls per pitch.
+80 nm uses `NG=31`, CD 40 nm; 300 nm uses `NG=61`, CD 150 nm.
+
+CRLB at \(N_0=10^6\), \(a=1\%\):
+
+**pitch 80 nm** (841 measurable rows)
+
+| mask | n | cd | depth | LSWA | RSWA | ρ(depth,CD) |
+|---|---:|---:|---:|---:|---:|---:|
+| prop | 841 | 4.5e-6 | 4.9e-6 | 2.6e-5 | 2.4e-5 | −0.47 |
+| decoupling | 435 | 5.0e-6 | 6.4e-6 | 4.1e-5 | 4.1e-5 | −0.57 |
+| only90 | 57 | 6.4e-6 | 8.7e-6 | 4.2e-5 | 4.2e-5 | −0.51 |
+| two_cam | 183 | 6.1e-6 | 7.8e-6 | 4.2e-5 | 4.2e-5 | −0.53 |
+
+**pitch 300 nm** (1091 measurable rows)
+
+| mask | n | cd | depth | LSWA | RSWA | ρ(depth,CD) |
+|---|---:|---:|---:|---:|---:|---:|
+| prop | 1091 | 1.5e-5 | 9.8e-7 | 4.2e-5 | 4.2e-5 | −0.15 |
+| decoupling | 441 | 2.6e-5 | 1.7e-6 | 7.5e-5 | 7.5e-5 | −0.20 |
+| only90 | 63 | 5.5e-5 | 1.8e-6 | 1.1e-4 | 1.0e-4 | −0.27 |
+| two_cam | 230 | 3.7e-5 | 1.7e-6 | 8.6e-5 | 8.4e-5 | −0.23 |
+
+| File | Content |
+|---|---|
+| [fim_study_dense_p80/fim_R_lambda_phi.png](fim_study_dense_p80/fim_R_lambda_phi.png) | 80 nm \(R_m(\lambda,\varphi)\) |
+| [fim_study_dense_p80/fim_J_m0.png](fim_study_dense_p80/fim_J_m0.png) | 80 nm \(J\) at \(m=0\) |
+| [fim_study_dense_p80/fim_crlb_by_mask.png](fim_study_dense_p80/fim_crlb_by_mask.png) | 80 nm CRLB by mask |
+| [fim_study_dense_p80/fim_study.json](fim_study_dense_p80/fim_study.json) | 80 nm numeric dump |
+| [fim_study_dense_p300/fim_R_lambda_phi.png](fim_study_dense_p300/fim_R_lambda_phi.png) | 300 nm \(R_m(\lambda,\varphi)\) |
+| [fim_study_dense_p300/fim_J_m0.png](fim_study_dense_p300/fim_J_m0.png) | 300 nm \(J\) at \(m=0\) |
+| [fim_study_dense_p300/fim_crlb_by_mask.png](fim_study_dense_p300/fim_crlb_by_mask.png) | 300 nm CRLB by mask |
+| [fim_study_dense_p300/fim_study.json](fim_study_dense_p300/fim_study.json) | 300 nm numeric dump |
+
 ## Download
 
 ```bash

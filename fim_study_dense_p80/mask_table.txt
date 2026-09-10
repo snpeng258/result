@@ -1,0 +1,12 @@
+mask               n   m=0  |m|>=1 roles
+----------------------------------------------------------------
+prop             841   399     442 aux=406 depth_anchor=21 lateral=378 swa=36
+decoupling       435   399      36 depth_anchor=21 lateral=378 swa=36
+m0_all           399   399       0 depth_anchor=21 lateral=378
+only90            57    21      36 depth_anchor=21 swa=36
+no90             784   378     406 aux=406 lateral=378
+near90            99    42      57 aux=21 depth_anchor=21 lateral=21 swa=36
+far               84    42      42 aux=42 lateral=42
+mid               84    42      42 aux=42 lateral=42
+two_cam          183    84      99 aux=63 depth_anchor=21 lateral=63 swa=36
+drop_phi45       799   378     421 aux=385 depth_anchor=21 lateral=357 swa=36
