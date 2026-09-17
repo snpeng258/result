@@ -158,6 +158,44 @@ Both pitches show a single basin. 300 nm is elongated along CD (weak CD sensitiv
 | [chi2_landscape/p300/chi2_cd_depth_decoupling.png](chi2_landscape/p300/chi2_cd_depth_decoupling.png) | 300 nm, noiseless |
 | [chi2_landscape/p300_noisy/chi2_cd_depth_decoupling.png](chi2_landscape/p300_noisy/chi2_cd_depth_decoupling.png) | 300 nm, noisy |
 
+## Compact-recipe CRLB vs inverse (`unify-swa`, `9c837bd`)
+
+Same H55–61 recipe as production inverse (20 conditions). Three parameters: CD, depth, `swa_deg=89.45` (walls equal).
+A = LM from truth, raw \(1/\sigma\), 40 trials. B = GA+LM (no 3-param library → `ga_lm`), 20 trials.
+Units: nm / deg. `efficiency ≈ CRLB/std` near 1 means the Monte-Carlo scatter matches the bound.
+
+**80 nm** (NG=31, CD 40 / depth 40)
+
+| cell | n | CD std / RMSE / CRLB | depth | SWA |
+|---|---:|---|---|---|
+| prop A | 40 | 0.144 / 0.142 / 0.116 | 0.189 / 0.187 / 0.151 | 0.828 / 0.817 / 0.677 |
+| decoupling A | 40 | 0.142 / 0.141 / 0.116 | 0.190 / 0.189 / 0.151 | 0.828 / 0.818 / 0.677 |
+| m0_all A | 40 | 0.230 / 0.228 / 0.187 | 0.349 / 0.355 / 0.314 | 1.42 / 1.40 / 1.19 |
+| only90 A | 40 | 0.209 / 0.210 / 0.207 | 0.180 / 0.178 / 0.164 | 0.783 / 0.775 / 0.754 |
+| decoupling B | 20 | 0.146 / 0.144 / 0.116 | 0.168 / 0.164 / 0.151 | 0.819 / 0.804 / 0.677 |
+
+**300 nm** (NG=61, CD 150 / depth 40)
+
+| cell | n | CD std / RMSE / CRLB | depth | SWA |
+|---|---:|---|---|---|
+| prop A | 40 | 0.205 / 0.203 / 0.206 | 0.0235 / 0.0243 / 0.0279 | 0.928 / 0.942 / 0.882 |
+| decoupling A | 40 | 0.233 / 0.230 / 0.239 | 0.0259 / 0.0271 / 0.0305 | 1.33 / 1.38 / 1.29 |
+| m0_all A | 40 | 0.233 / 0.230 / 0.254 | 0.0838 / 0.0843 / 0.0822 | 1.37 / 1.43 / 1.30 |
+| only90 A | 40 | 0.853 / 0.842 / 0.778 | 0.0298 / 0.0306 / 0.0321 | 1.79 / 1.81 / 1.52 |
+| decoupling B | 20 | 0.294 / 0.291 / 0.239 | 0.0489 / 0.0480 / 0.0305 | 1.59 / 1.66 / 1.29 |
+| m0_all B | 20 | 0.249 / 0.244 / 0.254 | 0.0968 / 0.0949 / 0.0822 | 1.64 / 1.71 / 1.30 |
+
+A sits on the compact CRLB (std ≈ 1.0–1.2 × CRLB). 80 nm B matches A. 300 nm B is slightly worse on depth/SWA, not an order of magnitude.
+
+| File | Content |
+|---|---|
+| [crlb_mc/p80/decoupling_A/scatter.png](crlb_mc/p80/decoupling_A/scatter.png) | 80 nm decoupling A |
+| [crlb_mc/p80/decoupling_B/scatter.png](crlb_mc/p80/decoupling_B/scatter.png) | 80 nm decoupling B |
+| [crlb_mc/p300/decoupling_A/scatter.png](crlb_mc/p300/decoupling_A/scatter.png) | 300 nm decoupling A |
+| [crlb_mc/p300/decoupling_B/scatter.png](crlb_mc/p300/decoupling_B/scatter.png) | 300 nm decoupling B |
+| [crlb_mc/p80/fim_compact.json](crlb_mc/p80/fim_compact.json) | 80 nm compact FIM |
+| [crlb_mc/p300/fim_compact.json](crlb_mc/p300/fim_compact.json) | 300 nm compact FIM |
+
 ## Download
 
 ```bash
