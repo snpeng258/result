@@ -137,6 +137,27 @@ CRLB at \(N_0=10^6\), \(a=1\%\):
 | [fim_study_dense_p300/fim_crlb_by_mask.png](fim_study_dense_p300/fim_crlb_by_mask.png) | 300 nm CRLB by mask |
 | [fim_study_dense_p300/fim_study.json](fim_study_dense_p300/fim_study.json) | 300 nm numeric dump |
 
+## Inverse-loss landscape ([PR #4](https://github.com/snpeng258/S4/pull/4))
+
+CD × depth slice at the true SWA (\(89.45^\circ\)). Z is the inverse data term
+\(L=\sum_j w_j(R_j-R_{\mathrm{meas},j})^2\) with \(\sum w=1\).
+Grid is \(17\times17=289\) points; H55–61 odd × \(\theta=70^\circ\) × \(\varphi\in\{0,30,45,60,90\}\).
+Main figures are the `decoupling` pair (contour + surface). All four masks sit in each folder.
+
+| run | truth | noiseless min | noisy min (`--seed 0`) |
+|---|---|---:|---:|
+| 80 nm | CD 40 / depth 40 | 0 at truth | \(3.3\times10^{-7}\) at truth |
+| 300 nm | CD 150 / depth 40 | 0 at truth | \(2.7\times10^{-7}\) at truth |
+
+Both pitches show a single basin. 300 nm is elongated along CD (weak CD sensitivity).
+
+| File | Content |
+|---|---|
+| [chi2_landscape/p80/chi2_cd_depth_decoupling.png](chi2_landscape/p80/chi2_cd_depth_decoupling.png) | 80 nm, noiseless |
+| [chi2_landscape/p80_noisy/chi2_cd_depth_decoupling.png](chi2_landscape/p80_noisy/chi2_cd_depth_decoupling.png) | 80 nm, noisy |
+| [chi2_landscape/p300/chi2_cd_depth_decoupling.png](chi2_landscape/p300/chi2_cd_depth_decoupling.png) | 300 nm, noiseless |
+| [chi2_landscape/p300_noisy/chi2_cd_depth_decoupling.png](chi2_landscape/p300_noisy/chi2_cd_depth_decoupling.png) | 300 nm, noisy |
+
 ## Download
 
 ```bash

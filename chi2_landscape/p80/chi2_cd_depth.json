@@ -1,0 +1,76 @@
+{
+  "slice": "cd_depth",
+  "x_name": "cd_nm",
+  "y_name": "depth_nm",
+  "fixed": {
+    "swa_deg": 89.45
+  },
+  "truth": {
+    "cd_nm": 40.0,
+    "depth_nm": 40.0,
+    "swa_deg": 89.45
+  },
+  "noiseless": true,
+  "z_axis": "inverse_loss",
+  "n_conditions": 20,
+  "n_points": 289,
+  "n_filled": 289,
+  "masks": {
+    "prop": {
+      "n_rows": 44,
+      "loss_min": 0.0,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 0.9999999999999999,
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      }
+    },
+    "decoupling": {
+      "n_rows": 28,
+      "loss_min": 0.0,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 1.0000000000000002,
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      }
+    },
+    "m0_all": {
+      "n_rows": 20,
+      "loss_min": 0.0,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 0.9999999999999998,
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      }
+    },
+    "only90": {
+      "n_rows": 12,
+      "loss_min": 0.0,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 1.0000000000000002,
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      }
+    }
+  }
+}
