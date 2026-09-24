@@ -198,14 +198,13 @@ Design noise still has a needle at truth. At \(N_0=10^4\) the 63 nm valley is wi
 | [chi2_landscape/p80_wide_depth_noisy_n0_1e4/chi2_cd_depth_decoupling_log.png](chi2_landscape/p80_wide_depth_noisy_n0_1e4/chi2_cd_depth_decoupling_log.png) | \(N_0=10^4\), log landscape |
 | [chi2_landscape/p80_wide_depth_noise_mc.json](chi2_landscape/p80_wide_depth_noise_mc.json) | 40-trial trap counts |
 
-### 300 nm wide-depth, two noise overviews
+### 300 nm wide-depth, two-noise depth cut
 
-Same \(\lambda/(2\cos\theta)\) offset as 80 nm (second valley near 59–61 nm). Pitch 300 nm, CD 150 / depth 40, grid \(17\times49\). Detector model unchanged (\(a=1\%\), yaml cameras). Only these two composite figures were added; existing 80 nm files are untouched.
+Same layout as the 80 nm compare: decoupling loss vs depth at the true CD. Blue \(N_0=10^6\), red \(N_0=10^4\), \(a=1\%\). Pitch 300 nm, CD 150 / depth 40.
 
 | File | Content |
 |---|---|
-| [chi2_landscape/p300_wide_depth_noisy_n0_1e6.png](chi2_landscape/p300_wide_depth_noisy_n0_1e6.png) | \(N_0=10^6\): contour + surface + depth cut |
-| [chi2_landscape/p300_wide_depth_noisy_n0_1e4.png](chi2_landscape/p300_wide_depth_noisy_n0_1e4.png) | \(N_0=10^4\): same layout |
+| [chi2_landscape/p300_wide_depth_noisy_depth_cut_compare.png](chi2_landscape/p300_wide_depth_noisy_depth_cut_compare.png) | blue/red depth cut, same style as 80 nm |
 
 ## Compact-recipe CRLB vs inverse (`unify-swa`, `9c837bd`)
 
