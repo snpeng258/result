@@ -1,0 +1,421 @@
+{
+  "slice": "cd_depth",
+  "x_name": "cd_nm",
+  "y_name": "depth_nm",
+  "fixed": {
+    "swa_deg": 89.45
+  },
+  "truth": {
+    "cd_nm": 40.0,
+    "depth_nm": 40.0,
+    "swa_deg": 89.45
+  },
+  "noiseless": false,
+  "z_axis": "inverse_loss",
+  "height_fringe": {
+    "formula": "lambda / (2 * cos(theta))",
+    "angle_deg": 70.0,
+    "wavelengths_nm": [
+      13.114754,
+      13.559322,
+      14.035088,
+      14.545455
+    ],
+    "period_nm": [
+      19.172487726128217,
+      19.82240266341407,
+      20.517926025538067,
+      21.264032665687083
+    ],
+    "period_nm_min": 19.172487726128217,
+    "period_nm_max": 21.264032665687083,
+    "truth_depth_nm": 40.0,
+    "expected_second_depth_nm": [
+      18.735967334312917,
+      19.482073974461933,
+      20.17759733658593,
+      20.827512273871783,
+      59.17248772612822,
+      59.82240266341407,
+      60.51792602553807,
+      61.26403266568708
+    ]
+  },
+  "n_conditions": 20,
+  "n_points": 833,
+  "n_filled": 833,
+  "masks": {
+    "prop": {
+      "n_rows": 44,
+      "loss_min": 5.039152115949274e-09,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 1.0,
+      "n_local_minima": 4,
+      "local_minima": [
+        {
+          "loss": 5.039152115949274e-09,
+          "cd_nm": 40.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 1.3723621220928993e-07,
+          "cd_nm": 40.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 27.233988784527376
+        },
+        {
+          "loss": 1.926478494150703e-07,
+          "cd_nm": 36.0,
+          "depth_nm": 16.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -4.0,
+            "depth_nm": -24.0
+          },
+          "loss_ratio": 38.23021115106373
+        },
+        {
+          "loss": 5.007878301497622e-07,
+          "cd_nm": 38.0,
+          "depth_nm": 21.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -2.0,
+            "depth_nm": -19.0
+          },
+          "loss_ratio": 99.37938340157132
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 4,
+        "minima": [
+          {
+            "depth_nm": 17.0,
+            "loss": 1.5680831498202343e-06,
+            "delta_depth_nm": -23.0
+          },
+          {
+            "depth_nm": 22.0,
+            "loss": 8.487767876473843e-07,
+            "delta_depth_nm": -18.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 5.039152115949274e-09,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 1.3723621220928993e-07,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    },
+    "decoupling": {
+      "n_rows": 28,
+      "loss_min": 3.3339582676078525e-07,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 0.9999999999999999,
+      "n_local_minima": 4,
+      "local_minima": [
+        {
+          "loss": 3.3339582676078525e-07,
+          "cd_nm": 40.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 1.2523962952582573e-05,
+          "cd_nm": 40.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 37.56484618977741
+        },
+        {
+          "loss": 1.7633753461023528e-05,
+          "cd_nm": 36.0,
+          "depth_nm": 16.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -4.0,
+            "depth_nm": -24.0
+          },
+          "loss_ratio": 52.89134429890725
+        },
+        {
+          "loss": 4.604891728269555e-05,
+          "cd_nm": 38.0,
+          "depth_nm": 21.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -2.0,
+            "depth_nm": -19.0
+          },
+          "loss_ratio": 138.1208569108338
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 4,
+        "minima": [
+          {
+            "depth_nm": 17.0,
+            "loss": 0.00014446967814024905,
+            "delta_depth_nm": -23.0
+          },
+          {
+            "depth_nm": 22.0,
+            "loss": 7.81387590872275e-05,
+            "delta_depth_nm": -18.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 3.3339582676078525e-07,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 1.2523962952582573e-05,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    },
+    "m0_all": {
+      "n_rows": 20,
+      "loss_min": 9.761192216420997e-07,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 1.0,
+      "n_local_minima": 4,
+      "local_minima": [
+        {
+          "loss": 9.761192216420997e-07,
+          "cd_nm": 40.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 1.5517699313901367e-05,
+          "cd_nm": 40.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 15.89734017100529
+        },
+        {
+          "loss": 4.0322073635400516e-05,
+          "cd_nm": 38.0,
+          "depth_nm": 21.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -2.0,
+            "depth_nm": -19.0
+          },
+          "loss_ratio": 41.30855405917297
+        },
+        {
+          "loss": 4.1035171479478765e-05,
+          "cd_nm": 36.0,
+          "depth_nm": 18.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -4.0,
+            "depth_nm": -22.0
+          },
+          "loss_ratio": 42.03909785778665
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 3,
+        "minima": [
+          {
+            "depth_nm": 23.0,
+            "loss": 0.00011020775507201645,
+            "delta_depth_nm": -17.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 9.761192216420997e-07,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 1.5517699313901367e-05,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    },
+    "only90": {
+      "n_rows": 12,
+      "loss_min": 2.066495756695446e-07,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 1.0,
+      "n_local_minima": 4,
+      "local_minima": [
+        {
+          "loss": 2.066495756695446e-07,
+          "cd_nm": 40.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 6.670853759173141e-06,
+          "cd_nm": 38.0,
+          "depth_nm": 16.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -2.0,
+            "depth_nm": -24.0
+          },
+          "loss_ratio": 32.28099422686727
+        },
+        {
+          "loss": 1.3445680738975227e-05,
+          "cd_nm": 39.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -1.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 65.06512629126492
+        },
+        {
+          "loss": 5.5469526586501536e-05,
+          "cd_nm": 39.0,
+          "depth_nm": 21.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -1.0,
+            "depth_nm": -19.0
+          },
+          "loss_ratio": 268.4231332524167
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 3,
+        "minima": [
+          {
+            "depth_nm": 21.0,
+            "loss": 5.644158467601697e-05,
+            "delta_depth_nm": -19.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 2.066495756695446e-07,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 1.5290969779055465e-05,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    }
+  },
+  "noise": {
+    "model": "detector_poisson_floor_flicker",
+    "n0_electrons": 1000000.0,
+    "relative_a": 0.01,
+    "zero_camera": "DoBEAM2000-2",
+    "first_camera": "XV4040BSI-HG",
+    "seed": 0
+  },
+  "trap_mc": {
+    "n_trials": 40,
+    "masks": {
+      "decoupling": {
+        "truth": 40,
+        "deep": 0,
+        "shallow": 0,
+        "other": 0,
+        "p_leave_truth": 0.0
+      },
+      "prop": {
+        "truth": 40,
+        "deep": 0,
+        "shallow": 0,
+        "other": 0,
+        "p_leave_truth": 0.0
+      },
+      "only90": {
+        "truth": 40,
+        "deep": 0,
+        "shallow": 0,
+        "other": 0,
+        "p_leave_truth": 0.0
+      }
+    }
+  }
+}

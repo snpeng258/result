@@ -1,0 +1,62 @@
+{
+  "n_trials": 40,
+  "seed_for_figures": 0,
+  "groups": {
+    "n0_1e6": {
+      "label": "N0=1e6 a=1% (yaml)",
+      "n0_electrons": 1000000.0,
+      "relative_a": 0.01,
+      "masks": {
+        "decoupling": {
+          "truth": 40,
+          "deep": 0,
+          "shallow": 0,
+          "other": 0,
+          "p_leave_truth": 0.0
+        },
+        "prop": {
+          "truth": 40,
+          "deep": 0,
+          "shallow": 0,
+          "other": 0,
+          "p_leave_truth": 0.0
+        },
+        "only90": {
+          "truth": 40,
+          "deep": 0,
+          "shallow": 0,
+          "other": 0,
+          "p_leave_truth": 0.0
+        }
+      }
+    },
+    "n0_1e4": {
+      "label": "N0=1e4 a=1%",
+      "n0_electrons": 10000.0,
+      "relative_a": 0.01,
+      "masks": {
+        "decoupling": {
+          "truth": 36,
+          "deep": 3,
+          "shallow": 1,
+          "other": 0,
+          "p_leave_truth": 0.1
+        },
+        "prop": {
+          "truth": 36,
+          "deep": 3,
+          "shallow": 1,
+          "other": 0,
+          "p_leave_truth": 0.1
+        },
+        "only90": {
+          "truth": 22,
+          "deep": 1,
+          "shallow": 8,
+          "other": 9,
+          "p_leave_truth": 0.45
+        }
+      }
+    }
+  }
+}

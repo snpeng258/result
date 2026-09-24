@@ -1,0 +1,378 @@
+{
+  "slice": "cd_depth",
+  "x_name": "cd_nm",
+  "y_name": "depth_nm",
+  "fixed": {
+    "swa_deg": 89.45
+  },
+  "truth": {
+    "cd_nm": 40.0,
+    "depth_nm": 40.0,
+    "swa_deg": 89.45
+  },
+  "noiseless": false,
+  "z_axis": "inverse_loss",
+  "height_fringe": {
+    "formula": "lambda / (2 * cos(theta))",
+    "angle_deg": 70.0,
+    "wavelengths_nm": [
+      13.114754,
+      13.559322,
+      14.035088,
+      14.545455
+    ],
+    "period_nm": [
+      19.172487726128217,
+      19.82240266341407,
+      20.517926025538067,
+      21.264032665687083
+    ],
+    "period_nm_min": 19.172487726128217,
+    "period_nm_max": 21.264032665687083,
+    "truth_depth_nm": 40.0,
+    "expected_second_depth_nm": [
+      18.735967334312917,
+      19.482073974461933,
+      20.17759733658593,
+      20.827512273871783,
+      59.17248772612822,
+      59.82240266341407,
+      60.51792602553807,
+      61.26403266568708
+    ]
+  },
+  "n_conditions": 20,
+  "n_points": 833,
+  "n_filled": 833,
+  "masks": {
+    "prop": {
+      "n_rows": 44,
+      "loss_min": 3.5009284385466093e-05,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 0.9999999999999998,
+      "n_local_minima": 3,
+      "local_minima": [
+        {
+          "loss": 3.5009284385466093e-05,
+          "cd_nm": 40.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 4.6833822203745406e-05,
+          "cd_nm": 40.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 1.3377543421935298
+        },
+        {
+          "loss": 5.0758657014178825e-05,
+          "cd_nm": 36.0,
+          "depth_nm": 17.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -4.0,
+            "depth_nm": -23.0
+          },
+          "loss_ratio": 1.4498627408462823
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 3,
+        "minima": [
+          {
+            "depth_nm": 22.0,
+            "loss": 8.667954134537056e-05,
+            "delta_depth_nm": -18.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 3.5009284385466093e-05,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 4.6833822203745406e-05,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    },
+    "decoupling": {
+      "n_rows": 28,
+      "loss_min": 4.798508613645731e-05,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 1.0,
+      "n_local_minima": 3,
+      "local_minima": [
+        {
+          "loss": 4.798508613645731e-05,
+          "cd_nm": 40.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 7.633330219891536e-05,
+          "cd_nm": 40.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 1.5907713905492007
+        },
+        {
+          "loss": 8.574272410829651e-05,
+          "cd_nm": 36.0,
+          "depth_nm": 17.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -4.0,
+            "depth_nm": -23.0
+          },
+          "loss_ratio": 1.7868619400716743
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 3,
+        "minima": [
+          {
+            "depth_nm": 22.0,
+            "loss": 0.00017185966210827729,
+            "delta_depth_nm": -18.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 4.798508613645731e-05,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 7.633330219891536e-05,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    },
+    "m0_all": {
+      "n_rows": 20,
+      "loss_min": 0.00010059813195566517,
+      "at": {
+        "cd_nm": 40.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 0.9999999999999999,
+      "n_local_minima": 3,
+      "local_minima": [
+        {
+          "loss": 0.00010059813195566517,
+          "cd_nm": 40.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 0.00012493027764054086,
+          "cd_nm": 40.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 0.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 1.2418747268149986
+        },
+        {
+          "loss": 0.0001643454443089142,
+          "cd_nm": 37.0,
+          "depth_nm": 19.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -3.0,
+            "depth_nm": -21.0
+          },
+          "loss_ratio": 1.6336828638263705
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 0.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 3,
+        "minima": [
+          {
+            "depth_nm": 22.0,
+            "loss": 0.00026652105770749425,
+            "delta_depth_nm": -18.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 0.00010059813195566517,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 0.00012493027764054086,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    },
+    "only90": {
+      "n_rows": 12,
+      "loss_min": 1.8391965854181635e-05,
+      "at": {
+        "cd_nm": 41.0,
+        "depth_nm": 40.0,
+        "swa_deg": 89.45
+      },
+      "sum_w": 1.0,
+      "n_local_minima": 4,
+      "local_minima": [
+        {
+          "loss": 1.8391965854181635e-05,
+          "cd_nm": 41.0,
+          "depth_nm": 40.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 1.0,
+            "depth_nm": 0.0
+          },
+          "loss_ratio": 1.0
+        },
+        {
+          "loss": 3.869502933865032e-05,
+          "cd_nm": 39.0,
+          "depth_nm": 16.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": -1.0,
+            "depth_nm": -24.0
+          },
+          "loss_ratio": 2.103909372463985
+        },
+        {
+          "loss": 6.149711727882338e-05,
+          "cd_nm": 41.0,
+          "depth_nm": 63.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 1.0,
+            "depth_nm": 23.0
+          },
+          "loss_ratio": 3.343694620052879
+        },
+        {
+          "loss": 6.689433013440443e-05,
+          "cd_nm": 43.0,
+          "depth_nm": 64.0,
+          "swa_deg": 89.45,
+          "delta_to_truth": {
+            "cd_nm": 3.0,
+            "depth_nm": 24.0
+          },
+          "loss_ratio": 3.637149539356893
+        }
+      ],
+      "delta_to_truth": {
+        "cd_nm": 1.0,
+        "depth_nm": 0.0
+      },
+      "depth_cut": {
+        "cd_nm": 40.0,
+        "n_minima": 3,
+        "minima": [
+          {
+            "depth_nm": 17.0,
+            "loss": 4.132851614342607e-05,
+            "delta_depth_nm": -23.0
+          },
+          {
+            "depth_nm": 40.0,
+            "loss": 1.871070341752627e-05,
+            "delta_depth_nm": 0.0
+          },
+          {
+            "depth_nm": 63.0,
+            "loss": 6.167698460129318e-05,
+            "delta_depth_nm": 23.0
+          }
+        ]
+      }
+    }
+  },
+  "noise": {
+    "model": "detector_poisson_floor_flicker",
+    "n0_electrons": 10000.0,
+    "relative_a": 0.01,
+    "zero_camera": "DoBEAM2000-2",
+    "first_camera": "XV4040BSI-HG",
+    "seed": 0
+  },
+  "trap_mc": {
+    "n_trials": 40,
+    "masks": {
+      "decoupling": {
+        "truth": 36,
+        "deep": 3,
+        "shallow": 1,
+        "other": 0,
+        "p_leave_truth": 0.1
+      },
+      "prop": {
+        "truth": 36,
+        "deep": 3,
+        "shallow": 1,
+        "other": 0,
+        "p_leave_truth": 0.1
+      },
+      "only90": {
+        "truth": 22,
+        "deep": 1,
+        "shallow": 8,
+        "other": 9,
+        "p_leave_truth": 0.45
+      }
+    }
+  }
+}

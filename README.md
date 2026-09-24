@@ -178,6 +178,26 @@ Every mask has **4 local minima**. Global min is still at truth (CD 40 / depth 4
 | [chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling_depth_cut.png](chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling_depth_cut.png) | loss vs depth at true CD |
 | [chi2_landscape/p80_wide_depth/chi2_cd_depth.json](chi2_landscape/p80_wide_depth/chi2_cd_depth.json) | `local_minima` / `depth_cut` |
 
+### Detector noise: when does the second basin win?
+
+Same R-grid, no extra S4. \(R_{\mathrm{meas}}\) uses the per-order detector model
+\(\sigma^2=(a f)^2+f/N_0+b^2\) (Poisson + camera floor + flicker; yaml cameras kept).
+Both groups use \(a=1\%\); only \(N_0\) changes. Figures are `--seed 0`. Trap rates are 40 independent draws.
+
+| group | \(N_0\) | \(a\) | seed 0 global min | \(L_{63}/L_{40}\) (decoupling) | P(leave truth), 40 trials |
+|---|---:|---:|---|---:|---|
+| design | \(10^6\) | 1% | CD 40 / depth 40 | 38 | decoupling / prop / only90: **0 / 0 / 0** |
+| dim | \(10^4\) | 1% | CD 40 / depth 40 | 1.6 | decoupling / prop / only90: **0.10 / 0.10 / 0.45** |
+
+Design noise still has a needle at truth. At \(N_0=10^4\) the 63 nm valley is within a factor of ~1.2–1.6 of the truth loss; 4/40 decoupling draws jump (3 to ~63 nm, 1 to the shallow fringe). `only90` is already unstable (18/40 leave truth). Raising flicker to \(a=5\%\) at \(N_0=10^6\) does **not** trap decoupling (0/40); the degeneracy is shot/floor (\(N_0\)), not source flicker.
+
+| File | Content |
+|---|---|
+| [chi2_landscape/p80_wide_depth_noisy_depth_cut_compare.png](chi2_landscape/p80_wide_depth_noisy_depth_cut_compare.png) | both \(N_0\) on one depth cut |
+| [chi2_landscape/p80_wide_depth_noisy_n0_1e6/chi2_cd_depth_decoupling_log.png](chi2_landscape/p80_wide_depth_noisy_n0_1e6/chi2_cd_depth_decoupling_log.png) | design noise, log landscape |
+| [chi2_landscape/p80_wide_depth_noisy_n0_1e4/chi2_cd_depth_decoupling_log.png](chi2_landscape/p80_wide_depth_noisy_n0_1e4/chi2_cd_depth_decoupling_log.png) | \(N_0=10^4\), log landscape |
+| [chi2_landscape/p80_wide_depth_noise_mc.json](chi2_landscape/p80_wide_depth_noise_mc.json) | 40-trial trap counts |
+
 ## Compact-recipe CRLB vs inverse (`unify-swa`, `9c837bd`)
 
 Same H55–61 recipe as production inverse (20 conditions). Three parameters: CD, depth, `swa_deg=89.45` (walls equal).
