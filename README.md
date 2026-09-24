@@ -149,7 +149,7 @@ Main figures are the `decoupling` pair (contour + surface). All four masks sit i
 | 80 nm | CD 40 / depth 40 | 0 at truth | \(3.3\times10^{-7}\) at truth |
 | 300 nm | CD 150 / depth 40 | 0 at truth | \(2.7\times10^{-7}\) at truth |
 
-Both pitches show a single basin. 300 nm is elongated along CD (weak CD sensitivity).
+Both pitches show a single basin **inside the ±8 nm window**. 300 nm is elongated along CD (weak CD sensitivity).
 
 | File | Content |
 |---|---|
@@ -157,6 +157,26 @@ Both pitches show a single basin. 300 nm is elongated along CD (weak CD sensitiv
 | [chi2_landscape/p80_noisy/chi2_cd_depth_decoupling.png](chi2_landscape/p80_noisy/chi2_cd_depth_decoupling.png) | 80 nm, noisy |
 | [chi2_landscape/p300/chi2_cd_depth_decoupling.png](chi2_landscape/p300/chi2_cd_depth_decoupling.png) | 300 nm, noiseless |
 | [chi2_landscape/p300_noisy/chi2_cd_depth_decoupling.png](chi2_landscape/p300_noisy/chi2_cd_depth_decoupling.png) | 300 nm, noisy |
+
+## Wide-depth second basin ([PR #7](https://github.com/snpeng258/S4/pull/7), `f01786a`)
+
+Same 80 nm square trench and recipe as `p80`, but depth is 16–64 nm (one \(\lambda/(2\cos\theta)\approx 19\)–\(21\,\mathrm{nm}\) fringe). Grid is \(17\times49=833\), noiseless. The old \(\pm 8\,\mathrm{nm}\) slice missed Gross’s height valley.
+
+Every mask has **4 local minima**. Global min is still at truth (CD 40 / depth 40, \(L=0\)). A second basin sits at depth **63 nm** (\(\Delta h=+23\,\mathrm{nm}\)), next to the expected 59–61 nm fringe; a shallower pair is at 16–22 nm.
+
+| mask | n | second basin | \(L\) |
+|---|---:|---|---:|
+| prop | 44 | CD 40 / depth 63 | \(1.5\times10^{-7}\) |
+| decoupling | 28 | CD 40 / depth 63 | \(1.4\times10^{-5}\) |
+| m0_all | 20 | CD 40 / depth 63 | \(1.5\times10^{-5}\) |
+| only90 | 12 | CD 39 / depth 63 | \(1.5\times10^{-5}\) |
+
+| File | Content |
+|---|---|
+| [chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling.png](chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling.png) | linear contour + surface |
+| [chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling_log.png](chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling_log.png) | log iso-loss (second basin visible) |
+| [chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling_depth_cut.png](chi2_landscape/p80_wide_depth/chi2_cd_depth_decoupling_depth_cut.png) | loss vs depth at true CD |
+| [chi2_landscape/p80_wide_depth/chi2_cd_depth.json](chi2_landscape/p80_wide_depth/chi2_cd_depth.json) | `local_minima` / `depth_cut` |
 
 ## Compact-recipe CRLB vs inverse (`unify-swa`, `9c837bd`)
 
