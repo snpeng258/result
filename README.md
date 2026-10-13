@@ -244,6 +244,69 @@ A sits on the compact CRLB (std ≈ 1.0–1.2 × CRLB). 80 nm B matches A. 300 n
 | [crlb_mc/p80/fim_compact.json](crlb_mc/p80/fim_compact.json) | 80 nm compact FIM |
 | [crlb_mc/p300/fim_compact.json](crlb_mc/p300/fim_compact.json) | 300 nm compact FIM |
 
+## 80 nm azimuth density, φ = 80–90° ([PR #8](https://github.com/snpeng258/S4/pull/8))
+
+Pitch 80 nm, CD 40 / depth 40 / SWA \(89.45^\circ\), θ=70°, TE, H55–61 odd harmonics. Azimuths are 80–90° in 1° steps. CRLB uses the observation standard deviation \(\sigma\), so \(F\) is weighted by \(1/\sigma^2\). Mode A is LM from truth, 40 trials. `d1` matches `prop` (132 rows).
+
+| mask | n | cd | depth | swa | ρ(depth, CD) | cond |
+|---|---:|---:|---:|---:|---:|---:|
+| phi90 | 12 | 0.207 | 0.164 | 0.754 | −0.536 | 390 |
+| d10 | 24 | 0.0866 | 0.0431 | 0.178 | −0.270 | 44.0 |
+| d5 | 36 | 0.0761 | 0.0298 | 0.135 | −0.155 | 43.8 |
+| d2 | 72 | 0.0573 | 0.0208 | 0.0962 | −0.096 | 46.6 |
+| d1 | 132 | 0.0435 | 0.0151 | 0.0718 | −0.079 | 48.6 |
+
+Monte Carlo is finished for phi90, d10, and d5. std / RMSE / CRLB:
+
+| cell | n | CD | depth | SWA |
+|---|---:|---|---|---|
+| phi90 A | 40 | 0.216 / 0.218 / 0.207 | 0.218 / 0.215 / 0.164 | 0.966 / 0.954 / 0.754 |
+| d10 A | 40 | 0.0939 / 0.0928 / 0.0866 | 0.0481 / 0.0480 / 0.0431 | 0.192 / 0.190 / 0.178 |
+| d5 A | 40 | 0.0810 / 0.0803 / 0.0761 | 0.0321 / 0.0318 / 0.0298 | 0.153 / 0.153 / 0.135 |
+
+`d2` and `d1` Monte Carlo were still running when this was pushed.
+
+| File | Content |
+|---|---|
+| [azimuth_density/p80/fim_crlb_by_mask.png](azimuth_density/p80/fim_crlb_by_mask.png) | CRLB by azimuth step |
+| [azimuth_density/p80/fim_rho_cond.png](azimuth_density/p80/fim_rho_cond.png) | correlation and condition |
+| [azimuth_density/p80/pickup/mc_vs_crlb.png](azimuth_density/p80/pickup/mc_vs_crlb.png) | finished masks vs CRLB |
+| [azimuth_density/p80/phi90_A/scatter.png](azimuth_density/p80/phi90_A/scatter.png) | 90° only, 40 trials |
+| [azimuth_density/p80/d10_A/scatter.png](azimuth_density/p80/d10_A/scatter.png) | 10° step |
+| [azimuth_density/p80/d5_A/scatter.png](azimuth_density/p80/d5_A/scatter.png) | 5° step |
+| [azimuth_density/p80/fim_study.json](azimuth_density/p80/fim_study.json) | numeric CRLB |
+
+## Decoupling on/off CRLB (keep every nonzero order)
+
+Same 80 nm trench, but azimuths are 0° / 30° / 45° / 60° / 90°. `off` is propagating \(m\in\{-1,0,1\}\) (44 rows). `on` keeps every propagating \(m\neq 0\) as a sidewall-angle row (166 rows). CRLB is again \(\sigma\), and does not include the role weights. The on/off Monte Carlo was not finished (6–7 of 20) and is not in this push.
+
+| arm | n | cd | depth | swa | ρ(depth, CD) | cond |
+|---|---:|---:|---:|---:|---:|---:|
+| off (prop) | 44 | 0.116 | 0.151 | 0.677 | −0.885 | 412 |
+| on (decoupling) | 166 | 0.0913 | 0.134 | 0.567 | −0.858 | 301 |
+
+| File | Content |
+|---|---|
+| [decoupling_on_off/p80/crlb_on_off.png](decoupling_on_off/p80/crlb_on_off.png) | off vs on CRLB |
+| [decoupling_on_off/p80/fim_compact.json](decoupling_on_off/p80/fim_compact.json) | numeric CRLB |
+
+## Spectral dark fringes ([PR #10](https://github.com/snpeng258/S4/pull/10), `3af15a5`)
+
+Zeroth-order \(R_0(\lambda)\) at φ=0° and 90°, θ=70°, TE, λ=12–16 nm. Rows scan depth, CD, and SWA. Geometric path \(2h\cos\theta\) maps to dark wavelengths \(\lambda_m=4h\cos\theta/(2m+1)\). At h=40 nm the nearest fringes are 18.2 nm and 10.9 nm, so this window sits between them.
+
+rms \(\partial R_0/\partial p\):
+
+| φ | CD | depth | SWA | CD/depth |
+|---|---:|---:|---:|---:|
+| 0° | 0.00669 | 0.000807 | 0.00119 | 8.29 |
+| 90° | 0.00437 | 0.00882 | 0.00243 | 0.496 |
+
+| File | Content |
+|---|---|
+| [theory_argument_1/p80/fig_phi90_cd_sensitivity.png](theory_argument_1/p80/fig_phi90_cd_sensitivity.png) | 3×2 \(R_0(\lambda)\) |
+| [theory_argument_1/p80/fig_two_beam_depth90.png](theory_argument_1/p80/fig_two_beam_depth90.png) | two-beam depth reference |
+| [theory_argument_1/p80/phi90_cd_sensitivity.json](theory_argument_1/p80/phi90_cd_sensitivity.json) | `spectral_dark_fringes_nm` |
+
 ## Download
 
 ```bash

@@ -1,0 +1,11 @@
+方位角密度蒙特卡罗（mode A）
+更新时间: 2026-10-13 05:54:40
+对照图: pickup/mc_vs_crlb.png（每完成一个步长覆盖这一张）
+
+phi90    完成  40/40  scatter_phi90.png
+d10      完成  40/40  scatter_d10.png
+d5       完成  40/40  scatter_d5.png
+d2       未完成
+d1       未完成
+
+已写入 /home/psn/S4-azimuth-density/runs/inverse/fim_azimuth_density/p80/pickup/mc_vs_crlb.png

@@ -1,0 +1,5499 @@
+{
+  "config": "/home/psn/S4-azimuth-density/inverse/config_fim_azimuth_density_p80.yaml",
+  "structure": {
+    "pitch_nm": 80,
+    "cd_nm": 40.0,
+    "depth_nm": 40.0,
+    "swa_deg": 89.45
+  },
+  "optical": {
+    "polarization": "TE",
+    "NG": 31,
+    "n_conditions": 44,
+    "n_orders_stored": 31
+  },
+  "eps_frac": 0.01,
+  "fd_steps": {
+    "cd_nm": 0.4,
+    "depth_nm": 0.4,
+    "swa_deg": 0.8945000000000001
+  },
+  "noise": {
+    "n0_electrons_default": 1000000.0,
+    "zero": {
+      "camera": "DoBEAM2000-2",
+      "relative_a": 0.01,
+      "readout_e_rms": 5.0
+    },
+    "first": {
+      "camera": "XV4040BSI-HG",
+      "relative_a": 0.01,
+      "readout_e_rms": 2.5
+    },
+    "sigma_is_std": true,
+    "role_weights_in_FIM": false
+  },
+  "layout": {
+    "n_conditions": 44,
+    "n_orders_stored": 31,
+    "n_stored_rows": 1364,
+    "n_propagating": 181,
+    "keep_orders": [
+      -1,
+      0,
+      1
+    ],
+    "n_measurable": 132,
+    "n_s4_forwards_for_J": 176,
+    "param_names": [
+      "cd_nm",
+      "depth_nm",
+      "swa_deg"
+    ],
+    "param_true": {
+      "cd_nm": 40.0,
+      "depth_nm": 40.0,
+      "swa_deg": 89.45
+    },
+    "groups": [
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 3,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": true
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 80.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 2,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": true
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 81.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 1,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": true
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 82.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 83.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 84.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 85.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 86.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 87.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 88.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 3,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": true
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": -1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 0,
+        "role": "lateral",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 1,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 89.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 2,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": true
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": -1,
+        "role": "swa",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 0,
+        "role": "depth_anchor",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 1,
+        "role": "swa",
+        "n_wl": 4,
+        "n_propagating": 4,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": true,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 2,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 2,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": true
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 3,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 4,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 5,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 6,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 7,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 8,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 9,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 10,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 11,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 12,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 13,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 14,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      },
+      {
+        "azimuth_deg": 90.0,
+        "order_m": 15,
+        "role": "aux",
+        "n_wl": 4,
+        "n_propagating": 0,
+        "wavelengths_nm": [
+          14.545454545454545,
+          14.035087719298245,
+          13.559322033898304,
+          13.114754098360656
+        ],
+        "propagating": false,
+        "partial": false
+      }
+    ],
+    "mask_counts": {
+      "phi90": 12,
+      "d10": 24,
+      "d5": 36,
+      "d2": 72,
+      "d1": 132,
+      "prop": 132
+    },
+    "equivalent_masks": [
+      [
+        "d1",
+        "prop"
+      ]
+    ],
+    "note": "FIM uses 1/\u03c3_j^2 with \u03c3 the detector standard deviation. Decoupling role weights and WLS sum(w)=1 are not in \u03a3^{-1}."
+  },
+  "masks": {
+    "phi90": {
+      "n_rows": 12,
+      "n_m0": 4,
+      "n_pm1_or_higher": 8,
+      "roles": {
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.20715706730633662,
+        "depth_nm": 0.16366202291983944,
+        "swa_deg": 0.7538304602945453
+      },
+      "rho_depth_cd": -0.5363129659954117,
+      "cond_scaled": 390.32262107917194,
+      "rank": 3,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.5363129659954117,
+          0.7265537552294926
+        ],
+        [
+          -0.5363129659954117,
+          1.0,
+          -0.941779553964095
+        ],
+        [
+          0.7265537552294926,
+          -0.941779553964095,
+          1.0
+        ]
+      ]
+    },
+    "d10": {
+      "n_rows": 24,
+      "n_m0": 8,
+      "n_pm1_or_higher": 16,
+      "roles": {
+        "aux": 8,
+        "lateral": 4,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        80.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.08658118642525428,
+        "depth_nm": 0.043129175301414024,
+        "swa_deg": 0.17846355946278583
+      },
+      "rho_depth_cd": -0.27030460602757317,
+      "cond_scaled": 43.96858427001747,
+      "rank": 3,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.27030460602757317,
+          0.767341112466144
+        ],
+        [
+          -0.27030460602757317,
+          1.0,
+          -0.6117668883738444
+        ],
+        [
+          0.767341112466144,
+          -0.6117668883738443,
+          1.0
+        ]
+      ]
+    },
+    "d5": {
+      "n_rows": 36,
+      "n_m0": 12,
+      "n_pm1_or_higher": 24,
+      "roles": {
+        "aux": 16,
+        "lateral": 8,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        80.0,
+        85.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.0761365613865012,
+        "depth_nm": 0.02983486389662247,
+        "swa_deg": 0.13537017228484235
+      },
+      "rho_depth_cd": -0.1545480784832208,
+      "cond_scaled": 43.82145263325285,
+      "rank": 3,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.1545480784832208,
+          0.7972242321454471
+        ],
+        [
+          -0.1545480784832207,
+          1.0,
+          -0.46475002807287885
+        ],
+        [
+          0.7972242321454469,
+          -0.46475002807287885,
+          1.0
+        ]
+      ]
+    },
+    "d2": {
+      "n_rows": 72,
+      "n_m0": 24,
+      "n_pm1_or_higher": 48,
+      "roles": {
+        "aux": 40,
+        "lateral": 20,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        80.0,
+        82.0,
+        84.0,
+        86.0,
+        88.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.05727173634590523,
+        "depth_nm": 0.020758514435974696,
+        "swa_deg": 0.09624174057899613
+      },
+      "rho_depth_cd": -0.09623512363538145,
+      "cond_scaled": 46.5619564443795,
+      "rank": 3,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.09623512363538145,
+          0.8161031837675711
+        ],
+        [
+          -0.09623512363538146,
+          1.0,
+          -0.40438758580146683
+        ],
+        [
+          0.8161031837675711,
+          -0.40438758580146683,
+          1.0
+        ]
+      ]
+    },
+    "d1": {
+      "n_rows": 132,
+      "n_m0": 44,
+      "n_pm1_or_higher": 88,
+      "roles": {
+        "aux": 80,
+        "lateral": 40,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        80.0,
+        81.0,
+        82.0,
+        83.0,
+        84.0,
+        85.0,
+        86.0,
+        87.0,
+        88.0,
+        89.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.04352111071942921,
+        "depth_nm": 0.01513683823934101,
+        "swa_deg": 0.07175018493089372
+      },
+      "rho_depth_cd": -0.07876842916862006,
+      "cond_scaled": 48.55692105859446,
+      "rank": 3,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.07876842916862006,
+          0.8249449240230401
+        ],
+        [
+          -0.07876842916862004,
+          1.0,
+          -0.38052768345123966
+        ],
+        [
+          0.82494492402304,
+          -0.3805276834512397,
+          1.0
+        ]
+      ]
+    },
+    "prop": {
+      "n_rows": 132,
+      "n_m0": 44,
+      "n_pm1_or_higher": 88,
+      "roles": {
+        "aux": 80,
+        "lateral": 40,
+        "swa": 8,
+        "depth_anchor": 4
+      },
+      "azimuths_deg": [
+        80.0,
+        81.0,
+        82.0,
+        83.0,
+        84.0,
+        85.0,
+        86.0,
+        87.0,
+        88.0,
+        89.0,
+        90.0
+      ],
+      "orders_m": [
+        -1,
+        0,
+        1
+      ],
+      "crlb": {
+        "cd_nm": 0.04352111071942921,
+        "depth_nm": 0.01513683823934101,
+        "swa_deg": 0.07175018493089372
+      },
+      "rho_depth_cd": -0.07876842916862006,
+      "cond_scaled": 48.55692105859446,
+      "rank": 3,
+      "singular_params": [],
+      "corr": [
+        [
+          1.0,
+          -0.07876842916862006,
+          0.8249449240230401
+        ],
+        [
+          -0.07876842916862004,
+          1.0,
+          -0.38052768345123966
+        ],
+        [
+          0.82494492402304,
+          -0.3805276834512397,
+          1.0
+        ]
+      ]
+    }
+  },
+  "n0_sweep": {
+    "n0_electrons": [
+      1000000.0
+    ],
+    "flicker": "yaml",
+    "crlb": {}
+  },
+  "flicker_compare": {
+    "yaml_a": {}
+  }
+}
